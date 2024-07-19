@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    touch-action: manipulation;
+}
+
+html, body, #app {
+    height: 100%;
+    overflow: hidden;
+}
